@@ -6,7 +6,7 @@ from flask_uploads import UploadSet , configure_uploads , IMAGES
 # from werkzeug.utils import secure_filename
 # from werkzeug.datastructures import  FileStorage
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= r"landmark-313314-7f96ef1b8370.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= r"key"
 
 app = Flask(__name__)
 
